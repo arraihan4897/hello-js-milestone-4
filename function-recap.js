@@ -15,3 +15,44 @@ const ass3Marks=60;
 var cal =  Average (ass1Marks ,ass2Marks, ass3Marks) ;
 console.log( ' my average ',cal);
 
+
+
+
+
+
+function milesToKM(km) {
+
+    const distance = km*1.60;
+    return distance ;
+    
+}
+const km = 25;
+const calculation  =  milesToKM(km);
+console.log(calculation);
+
+
+
+function isEven (number) {
+
+const  reminder = number%2;
+
+if (reminder===0 ) {
+    console.log(' this is even number');
+    return true;
+
+    
+}
+else{
+    console.log("odd number");
+    return false;
+
+}
+    
+}
+
+const number = 12;
+const  even = isEven(number);
+console.log(even);
+
+
+
