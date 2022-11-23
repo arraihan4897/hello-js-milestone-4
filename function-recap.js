@@ -55,4 +55,28 @@ const  even = isEven(number);
 console.log(even);
 
 
+function isEven (Oddnumber) {
+
+const  reminder = Oddnumber%4;
+
+if (reminder ===0 ) {
+    console.log(' this is leap year year'); 
+    return true;
+
+    
+}
+else{
+    console.log(" this is not  leap year");
+    return false;
+
+}
+    
+}
+
+const Oddnumber = 2020;
+const  ODD = isEven(Oddnumber);
+console.log(ODD);
+
+
+
 
