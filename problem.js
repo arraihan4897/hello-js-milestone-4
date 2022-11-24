@@ -14,3 +14,12 @@ else if ( del > jim  && del > cala)  {
         console.log('cala pabe');
 
     }
+
+
+
+        // easy version //
+
+   const minn= Math.min(2,55,6,2,54,56);
+   const maxx=  Math.max(2,55,6,2,54,56);
+
+   console.log(minn,maxx);
