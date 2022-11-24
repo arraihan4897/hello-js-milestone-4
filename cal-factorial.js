@@ -1,7 +1,7 @@
 // mul ++ for
-function getmulSum () {
+function getmulSum (factorial) {
     let mulsum= 1;
-    for (let i=7 ;i >=1; i--){
+    for (let i=factorial ;i >=1; i--){
         mulsum = mulsum *i 
       console.log( i, mulsum );
   
@@ -9,7 +9,7 @@ function getmulSum () {
   return mulsum;
     
 }
-const mulcal = getmulSum();
+const mulcal = getmulSum(9);
 console.log(mulcal);
 
 
