@@ -1,7 +1,7 @@
 // mul ++ for
 function getmulSum () {
     let mulsum= 1;
-    for (let i=1 ;i <=7; i++){
+    for (let i=7 ;i >=1; i--){
         mulsum = mulsum *i 
       console.log( i, mulsum );
   
