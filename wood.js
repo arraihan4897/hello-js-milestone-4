@@ -7,11 +7,11 @@ function calculateFormat(chair , table , bed  ) {
 
     const woodForChair = perChair*chair ;
     const woodForTable = perTable*table ;
-    const woodForBed = perBed*bed ;
+    const woodForBed   = perBed*bed ;
     
 
 
-    const total =woodForChair+woodForTable+  woodForBed;
+    const total =woodForChair + woodForTable + woodForBed;
     return total ;
     
 }
